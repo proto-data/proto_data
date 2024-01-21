@@ -1,5 +1,4 @@
-
-import 'package:proto_data_element/proto_data_element.dart';
+import 'package:proto_data_element/element.dart';
 
 ///
 abstract class ElementVisitor<R> {

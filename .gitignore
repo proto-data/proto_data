@@ -1,0 +1,6 @@
+# Standard Dart .gitignore
+.dart_tool/
+.packages
+.pub/
+build/
+.aider*

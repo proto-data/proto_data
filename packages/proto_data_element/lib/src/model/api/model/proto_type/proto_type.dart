@@ -1,5 +1,5 @@
 
-import 'package:proto_data_element/proto_data_element.dart';
+import 'package:proto_data_element/element.dart';
 
 ///
 abstract class ProtoType {}
@@ -13,7 +13,7 @@ abstract class ProtoEnumType extends ProtoInterfaceType {}
 ///
 abstract class ProtoMessageType extends ProtoInterfaceType {
   ///
-  Iterable<FieldElement> get fields;
+  Iterable<PropertyElement> get fields;
 }
 
 ///

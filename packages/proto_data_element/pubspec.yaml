@@ -1,0 +1,17 @@
+name: proto_data_element
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  built_value:
+  built_collection:
+  functional_data:
+dev_dependencies:
+  build_runner:
+  built_value_generator:
+  functional_data_generator:
+  very_good_analysis: ^5.1.0
+  test: any

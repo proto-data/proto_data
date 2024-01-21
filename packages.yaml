@@ -4,4 +4,11 @@ packages:
   data:
   protobuf:
   codec:
-impl_dependencies:
+dependencies:
+
+descriptions:
+  base:
+  interface:
+  data: data model implementation with builder
+  protobuf: protobuf interface
+  codec: Converters for data from/to protobuf

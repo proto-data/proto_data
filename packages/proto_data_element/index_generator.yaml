@@ -1,0 +1,8 @@
+index_generator:
+  exclude:
+    - '**.*.dart'
+  indexes:
+    - path: lib
+      name: element
+      include:
+        - src/model

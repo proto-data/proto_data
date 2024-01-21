@@ -1,5 +1,4 @@
 import 'package:belatuk_symbol_table/belatuk_symbol_table.dart';
-import 'package:protobuf/protobuf.dart';
 import 'package:protobuf_wellknown/google/protobuf/descriptor.pb.dart';
 
 class TypeResolver {

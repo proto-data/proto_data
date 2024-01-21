@@ -1,6 +1,5 @@
 // ignore_for_file:avoid_print
-import 'package:proto_data_analyzer/message_extension.dart';
-import 'package:proto_data_analyzer/visitor.dart';
+import 'package:proto_data_analyzer/proto_data_analyzer.dart';
 import 'package:protobuf_wellknown/google/protobuf/descriptor.pb.dart';
 
 class SimplePrintVisitor implements ProtobufDescriptorVisitor {

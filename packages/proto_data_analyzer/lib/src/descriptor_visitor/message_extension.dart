@@ -1,5 +1,5 @@
-import 'package:proto_data_analyzer/enum_extension.dart';
-import 'package:proto_data_analyzer/field_extension.dart';
+import 'package:proto_data_analyzer/src/descriptor_visitor/enum_extension.dart';
+import 'package:proto_data_analyzer/src/descriptor_visitor/field_extension.dart';
 import 'package:proto_data_analyzer/visitor.dart';
 import 'package:protobuf_wellknown/google/protobuf/descriptor.pb.dart';
 
